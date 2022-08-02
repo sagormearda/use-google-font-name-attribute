@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+.container {
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    /* background-color: red; */
+}
+
+.top-header {
+    width: 100%;
+    /* margin: auto; */
+    background-color: teal;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.logo {
+    width: 30%;
+    /* background-color: brown; */
+}
+
+.logo h1 {
+    width: 90%;
+    margin: auto;
+}
+
+
+/* menu bar part start   */
+
+.menu-bar {
+    width: 70%;
+    /* background-color: teal; */
+}
+
+.menu-bar ul {
+    float: right;
+}
+
+.menu-bar li {
+    width: 500px;
+    /* background-color: rgb(12, 124, 222); */
+    /* margin-top: 0px; */
+    text-align: right;
+    list-style-type: none;
+    padding: 10px 40px;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    padding: 10px 10px;
+    /* background-color: rgb(0, 255, 8); */
+    color: white;
+    text-transform: uppercase;
+}
+
+.menu-bar ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+.service {
+    height: 200px;
+    width: 100%;
+    background-color: aqua;
+    /* margin-top: 50px; */
+    padding-top: 100px;
+}
+
+.portfolio {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(0, 255, 8);
+}
+
+.about {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(209, 28, 194);
+}
+
+.find-me {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(244, 84, 31);
+}
